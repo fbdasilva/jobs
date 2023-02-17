@@ -1,0 +1,25 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 4rem;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+
+.main button{
+  border: 0.1rem solid rgb(73, 73, 180);
+  border-radius: 0.5rem;
+  background-color: rgb(73, 73, 180);
+  color: #fff;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.main button:hover{
+  color: rgb(73, 73, 180);
+  background-color: #eff1f4;
+  transition: 0.2s;
+  cursor: pointer;
+}

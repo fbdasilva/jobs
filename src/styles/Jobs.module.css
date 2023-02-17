@@ -1,0 +1,66 @@
+.jobsMain{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.jobsContent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 90%;
+}
+
+.jobsContent>h2{
+    font-size: 3.2rem;
+}
+
+.jobsContent>ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.buttonBox{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.buttonBox>button{
+    padding: 1rem;
+    border: 0.1rem solid rgb(73, 73, 180);
+    color: rgb(73, 73, 180);
+    background-color: #eff1f4;
+}
+
+.buttonBox>button:disabled{
+    background-color: #eaeaea;
+    color: #a7a6a6;
+    border: 0.1rem solid #a7a6a6;
+}
+
+.buttonBox>button:disabled:hover{
+    background-color: #eaeaea;
+    color: #a7a6a6;
+    border: 0.1rem solid #a7a6a6;
+}
+
+.buttonBox>button:hover{
+    background-color: rgb(73, 73, 180);
+    color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+
+    .jobsContent{
+        width: 100%;
+    }
+
+    .buttonBox{
+        width: 200px;
+        row-gap: 1rem;
+        flex-direction: column;
+    }
+}
